@@ -1,0 +1,135 @@
+body {
+    background-color: saddlebrown;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 97vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    width: 500px;
+    background-color: #cbbba7;
+
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.534);
+
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+p {
+    font-size: 1.5em;
+
+}
+
+.saudacao {
+
+    font-size: 1.5em;
+    color: rgb(163, 5, 5);
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: px;
+}
+
+ul li {
+    background-color: #F4F0EA;
+    color: #331F19;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+}
+
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+
+input:hover {
+    border: 2px solid rgb(162, 46, 46);
+
+}
+
+button {
+    background-color: #798252;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#botao {
+    background-color: rgb(162, 46, 46);
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+}
+
+#botao:hover {
+    background-color: #60041A;
+    color: #F4F0EA;
+}
+
+button.remover {
+    background-color: #A34743;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.remover:hover {
+    background-color: #60041A;
+}
+
+button.editar {
+    background-color: #4aa33e;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.editar:hover {
+    background-color: rgb(43, 110, 43);
+}
+
+.botao_lista {
+    background-color: rgb(162, 46, 46);
+}
+
+.botao_lista:hover {
+    background-color: #60041A;
+    color: #F4F0EA;
+}
