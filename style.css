@@ -1,6 +1,8 @@
 body {
-    background-color: saddlebrown;
-
+    /*background-color: saddlebrown;#CBBBA7
+    #A22E2E*/
+    
+    background-image: linear-gradient(to top, #796e60, #A22E2E);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +15,6 @@ body {
 main {
     width: 500px;
     background-color: #cbbba7;
-
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -23,11 +24,12 @@ main {
 
 h1 {
     font-size: 2.8em;
+    color: rgb(172, 52, 52);
 }
 
 p {
     font-size: 1.5em;
-
+    color: rgb(143, 44, 44);
 }
 
 .saudacao {
@@ -81,11 +83,11 @@ button {
 #botao {
     background-color: rgb(162, 46, 46);
     color: white;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.3em;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
-    width: 50%;
+    width: 36%;
 }
 
 #botao:hover {
@@ -127,9 +129,27 @@ button.editar:hover {
 
 .botao_lista {
     background-color: rgb(162, 46, 46);
+    font-size: 1.3em;
 }
 
 .botao_lista:hover {
     background-color: #60041A;
     color: #F4F0EA;
+}
+
+@media (max-width: 570px){
+    main {
+        width: 400px;
+    }
+
+    #botao {
+        width: 34%;
+        padding: 10px;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+
+    .botao_lista {
+        font-size: 1em;
+    }
 }
