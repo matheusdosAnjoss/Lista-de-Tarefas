@@ -9,7 +9,7 @@ body {
     width: 100vw;
     height: 97vh;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main {
@@ -139,11 +139,11 @@ button.editar:hover {
 
 @media (max-width: 570px){
     main {
-        width: 400px;
+        width: 380px;
     }
 
     #botao {
-        width: 34%;
+        width: 38%;
         padding: 10px;
         font-size: 1em;
         border-radius: 5px;
